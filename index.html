@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Morten Krebs — Academic webpage</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1 class="name">Morten Krebs</h1>
+        <p class="title">Researcher — [Your department / affiliation]</p>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="about" class="card">
+        <h2>About</h2>
+        <p class="lead">Short academic bio goes here. Replace this paragraph with a 2–3 sentence summary of your research focus, current role, and other key facts.</p>
+        <p>Example: I'm a researcher working on computational social science and network analysis. My work develops methods for ...</p>
+      </section>
+
+      <section id="research" class="card">
+        <h2>Research</h2>
+        <p>I work on the following topics:</p>
+        <ul>
+          <li>Research area 1 — short description.</li>
+          <li>Research area 2 — short description.</li>
+          <li>Research area 3 — short description.</li>
+        </ul>
+      </section>
+
+      <section id="publications" class="card">
+        <h2>Selected publications</h2>
+        <ol>
+          <li><strong>Krebs, M.</strong> (2024). Title of article. Journal Name. <a href="#" class="muted">DOI / link</a></li>
+          <li><strong>Krebs, M.</strong> (2022). Title of article. Conference Name. <a href="#" class="muted">PDF</a></li>
+          <li><strong>Krebs, M.</strong> (2020). Title of article. Journal Name. <a href="#" class="muted">arXiv</a></li>
+        </ol>
+        <p class="note">To update publications, edit the <code>#publications</code> section in <code>index.html</code>.</p>
+      </section>
+
+      <section id="cv" class="card">
+        <h2>CV</h2>
+        <p>A short overview of your education and appointments can go here. For a downloadable copy, add a file named <code>cv.pdf</code> to this repository and it will be available from the button below.</p>
+        <p><a class="btn" href="/cv.pdf" download>Download CV (PDF)</a></p>
+      </section>
+
+      <section id="contact" class="card">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+        <p>Links: <a href="https://github.com/MortenKrebs" target="_blank" rel="noopener">GitHub</a> • <a href="#">ORCID</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container small">© <span id="year">2026</span> Morten Krebs — Built with GitHub Pages</div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
